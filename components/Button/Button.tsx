@@ -1,7 +1,9 @@
+'use client';
+
 import { PropsWithChildren } from 'react';
 
 interface Props extends PropsWithChildren {
-  onClick?: () => void;
+  onClick: () => void;
 }
 
 export function Button({ children, onClick }: Props) {
